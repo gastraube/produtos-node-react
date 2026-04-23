@@ -1,0 +1,42 @@
+# Dependências (cobre node_modules em qualquer subpasta)
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/build/
+
+# Variáveis de ambiente (segredos)
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Logs
+**/*.log
+**/npm-debug.log*
+
+# VS Code — ignora preferências pessoais, commita configs de projeto
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# IDEs
+.idea/
+*.swp
+*.swo
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# React Native / Expo (pra quando adicionarmos)
+**/.expo/
+**/.expo-shared/
+**/ios/Pods/
+**/android/.gradle/
+**/android/build/
+**/android/app/build/
+
+# Testes (quando adicionarmos)
+**/coverage/
